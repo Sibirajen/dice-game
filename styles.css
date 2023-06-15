@@ -1,0 +1,52 @@
+.container{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.heading{
+    width: 50%;
+
+}
+.container img{
+    height: 100%;
+}
+.rotate{
+    animation-name: rotate;
+    animation-duration: 0.7s;
+}
+@keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+h1{
+    padding-left: 50px;
+    font-size: 7rem;
+    padding-top: 50px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: #9C120C;
+    font-weight: 100;
+}
+h2{
+    color: #5D3E0D;
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+}
+h3{
+    color: #5D3E0D;
+    font-size: 5rem;
+    text-align: center;
+    margin: 0%;
+    padding-top: 20px;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background-color: #FBF1D8;
+}
